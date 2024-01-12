@@ -81,7 +81,7 @@ class Chatbot:
         self.context = messages
 
     def print_messages(self):
-        for i in range(1, len(self.context)):
+        for i in range(1, len(self.context) - 1):
             if self.context[i]['role'] == 'user':
                 print(f"\nUser: {self.context[i]['content']}")
             else:
