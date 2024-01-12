@@ -4,6 +4,9 @@ A simple Python package for creating and interacting with GPT-based chatbots
 ## Preliminaries
 Make sure your OpenAI API key is setup (see [OpenAI's Quickstart tutorial](https://platform.openai.com/docs/quickstart?context=python)).
 
+## Installation
+- `pip install gptbots` or `pip3 install gptbots`
+
 ## Usage
 To create a chatbot:
 - `bot = gptbots.Chatbot()` creates a chatbot instance with default attributes
